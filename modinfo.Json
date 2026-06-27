@@ -1,18 +1,9 @@
 [
   {
-    "name": "MyCustomModMenu",
-    "version": "1.0.9",
-    "author": "YourName",
-    "description": "A custom layout list for my friends.",
-    "category": "Core",
-    "link": https://github.com/developer9998/MonkePhone/releases/download/1.0.9/MonkePhone.dll",
-    "dependencies": ["Utilla"]
-  },
-  {
     "name": "Utilla",
-    "version": "1.6.18",
+    "version": "1.6.27",
     "author": "developer9998",
-    "description": "Essential fix for entering custom lobbies safely.",
+    "description": "Essential fixed library required for entering custom rooms and handling modded matchmaking.",
     "category": "Core",
     "link": "https://github.com/developer9998/Utilla-BepInEx/releases/download/1.6.27/Utilla.dll",
     "dependencies": []
