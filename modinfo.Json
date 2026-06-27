@@ -5,7 +5,7 @@
     "author": "developer9998",
     "description": "Essential fixed library required for entering custom rooms and handling modded matchmaking.",
     "category": "Core",
-    "link": "https://github.com/developer9998/Utilla-BepInEx/releases/download/1.6.27/Utilla.dll",
+    "download": "https://github.com/developer9998/Utilla-BepInEx/releases/download/1.6.27/Utilla.dll",
     "dependencies": []
   }
 ]
