@@ -1,0 +1,4 @@
+mod-feedback.json filter=lfs diff=lfs merge=lfs -text
+modinfo.Json filter=lfs diff=lfs merge=lfs -text
+mod-feedback.json !text !filter !merge !diff
+modinfo.Json !text !filter !merge !diff
