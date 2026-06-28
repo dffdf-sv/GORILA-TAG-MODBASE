@@ -9,12 +9,12 @@
     "dependencies": []
   },
   {
-    "name": "{II stupid}",
-    "version": "{8.3.0}",
-    "author": "{iiDk-the-actual}",
+    "name": "II stupid",
+    "version": "8.3.0",
+    "author": "iiDk-the-actual",
     "description": "{Insert Description from Tally}",
-    "category": "{gameplay}",
-    "download_url": "{https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/download/8.3.0/iis_Stupid_Menu.dll}",
+    "category": "gameplay",
+    "download_url": "https://github.com/iiDk-the-actual/iis.Stupid.Menu/releases/download/8.3.0/iis_Stupid_Menu.dll",
     "dependencies": ["Utilla"]
   }
 ]
