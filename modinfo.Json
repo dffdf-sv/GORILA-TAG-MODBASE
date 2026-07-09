@@ -16,5 +16,14 @@
     "category": "gameplay",
     "download_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/latest/download",
     "dependencies": ["Utilla"]
+  },
+  {
+    "name": "II stupid",
+    "version": "8.3.0",
+    "author": "iiDk-the-actual",
+    "description": "from https://sourceforge.net/projects/ii-s-stupid-menu.mirror/ iistupid shut down",
+    "category": "gameplay",
+    "download_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/latest/download",
+    "dependencies": ["Utilla"]
   }
 ]
