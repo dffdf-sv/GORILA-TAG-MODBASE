@@ -3,7 +3,15 @@
     "votes": {
       "295628523": 1
     },
-    "comments": [],
+    "comments": [
+      {
+        "id": "278a0b3f-749c-4ad4-a5e5-df7deb30ee12",
+        "userId": "295628523",
+        "login": "dffdf-sv",
+        "body": "hello",
+        "createdAt": "2026-10-23T23:10:21.311Z"
+      }
+    ],
     "ratings": {
       "295628523": 5
     }
