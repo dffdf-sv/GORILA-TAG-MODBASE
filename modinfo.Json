@@ -17,7 +17,7 @@
     "author": "iiDk-the-actual",
     "description": "Community mod menu. Check the upstream project information and use only in environments where your mods are permitted.",
     "category": "Gameplay",
-    "download_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/8.3.0/iis_Stupid_Menu.dll/download",
+    "download_url": "https://sourceforge.net/settings/mirror_choices?projectname=ii-s-stupid-menu.mirror&filename=8.3.0/iis_Stupid_Menu.dll&selected=altushost-swe",
     "source_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/8.3.0/",
     "dependencies": [
       "Utilla"
