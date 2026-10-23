@@ -2,40 +2,39 @@
   {
     "name": "Utilla",
     "version": "1.6.27",
-    "author": "developer9998",
-    "description": "Essential fixed library required for entering custom rooms and handling modded matchmaking.",
+    "author": "developer9998 & contributors",
+    "description": "A PC library for Gorilla Tag that supports room-related features and custom gamemodes. Many community mods depend on it.",
     "category": "Core",
-    "download_url": "https://github.com",
-    "dependencies": []
+    "download_url": "https://github.com/BRTeamYT/Utilla-GorillaTag/releases/download/1.6.27/Utilla.zip",
+    "image_url": "https://clan.akamai.steamstatic.com/images/39711486/b59ed47fa032145d3640199a7f610fbb6f0add86.png",
+    "source_url": "https://github.com/BRTeamYT/Utilla-GorillaTag/releases",
+    "dependencies": [],
+    "featured": true
   },
   {
     "name": "II stupid",
     "version": "8.3.0",
     "author": "iiDk-the-actual",
-    "description": "from https://sourceforge.net/projects/ii-s-stupid-menu.mirror/ iistupid shut down",
-    "category": "gameplay",
-    "download_url": "https://downloads.sourceforge.net/project/ii-s-stupid-menu.mirror/8.3.0/iis_Stupid_Menu.dll?ts=gAAAAABqURxLsIPKvfdVGK9wjFtlK7550gmTfR_nlVjywOo1zgLl_ALuwTHbDIWc0fifucBVik7RcJX49A8Zr3px-ToZkV_O4A%3D%3D&use_mirror=altushost-swe&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fii-s-stupid-menu.mirror%2F",
-    "dependencies": ["Utilla"]
+    "description": "Community mod menu. Check the upstream project information and use only in environments where your mods are permitted.",
+    "category": "Gameplay",
+    "download_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/8.3.0/iis_Stupid_Menu.dll/download",
+    "source_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/8.3.0/",
+    "dependencies": [
+      "Utilla"
+    ]
   },
   {
-    "name": "monkeyphone",
+    "name": "MonkePhone",
     "version": "1.0.9",
     "author": "developer9998",
-    "description": "MonkePhone
-MonkePhone is a utility mod for Gorilla Tag founded by Striker and Biotest with development led by Dev. It is primarily used as a glorifed photo capture and distribution mod made simple and customizable.
-
-FAQ - frequently asked questions
-work-in-progress!
-
-Resources
-🗄️ MonkePhone photo archive: https://drive.google.com/drive/folders/15R_B7z_QMueqlCNcDCqLoZGEu5QFAk59?usp=sharing
-
-All posted photos from initial development (2024)
-All posted photos from Dev's Dungeon server (late 2024 to early 2025)
-Disclaimer
-This product is not affiliated with Another Axiom Inc. or its videogames Gorilla Tag and Orion Drift and is not endorsed or otherwise sponsored by Another Axiom. Portions of the materials contained herein are property of Another Axiom. ©2021 Another Axiom Inc.",
-    "category": "gameplay",
+    "description": "An in-game phone and photo tool for capturing moments while you play. Check the upstream page for features and requirements.",
+    "category": "Utility",
     "download_url": "https://github.com/developer9998/MonkePhone/releases/download/1.0.9/MonkePhone.dll",
-    "dependencies": ["Utilla"]
+    "image_url": "https://gorilla-tag-mods.com/wp-content/uploads/2025/09/MonkePhone-mod.webp",
+    "source_url": "https://github.com/developer9998/MonkePhone/releases",
+    "dependencies": [
+      "Utilla"
+    ],
+    "featured": true
   }
 ]
