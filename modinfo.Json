@@ -5,7 +5,7 @@
     "author": "developer9998 & contributors",
     "description": "A PC library for Gorilla Tag that supports room-related features and custom gamemodes. Many community mods depend on it.",
     "category": "Core",
-    "download_url": "https://github.com/user-attachments/files/27801415/Utilla.zip",
+    "download_url": "https://github.com/developer9998/Utilla-BepInEx/releases/download/1.6.27/Utilla.dll",
     "image_url": "",
     "source_url": "https://github.com/BRTeamYT/Utilla-GorillaTag",
     "dependencies": [],
@@ -19,9 +19,7 @@
     "category": "Gameplay",
     "download_url": "https://sourceforge.net/settings/mirror_choices?projectname=ii-s-stupid-menu.mirror&filename=8.3.0/iis_Stupid_Menu.dll&selected=altushost-swe",
     "source_url": "https://sourceforge.net/projects/ii-s-stupid-menu.mirror/files/8.3.0/",
-    "dependencies": [
-      "Utilla"
-    ],
+    "dependencies": [],
     "image_url": "https://images.gamebanana.com/img/ss/mods/sgi_sd_image_664cd6e384dd5.webp"
   },
   {
