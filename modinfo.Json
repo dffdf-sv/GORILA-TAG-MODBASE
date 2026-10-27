@@ -61,5 +61,42 @@
     "dependencies": [],
     "featured": false,
     "owner_id": "260319088"
+  },
+  {
+    "name": "GorillaShirts",
+    "version": "2.4.7",
+    "author": "developer9998",
+    "description": "GorillaShirts is a mod for Gorilla Tag which gives players the ability to create their own custom shirts for the game.",
+    "category": "Cosmetic",
+    "download_url": "https://github.com/developer9998/GorillaShirts/releases/download/2.4.7/GorillaShirts.dll",
+    "image_url": "",
+    "gallery_urls": [],
+    "video_url": "",
+    "source_url": "https://github.com/developer9998/GorillaShirts",
+    "website_url": "",
+    "embed_url": "",
+    "requirements": "",
+    "supported_os": [
+      "Windowslinux"
+    ],
+    "readme": "<div align=\"center\">\n <img src=\"https://raw.githubusercontent.com/developer9998/GorillaShirts-Legacy/refs/heads/main/Marketing/Banner.png\" width=70% height=auto</img><br>\n</div><br>\n\n<div align=\"center\">\n  <a href=\"https://discord.gg/dev9998\"><img src=\"https://img.shields.io/discord/989239017511989258?label=Discord&style=flat-square&color=blue\"></a>\n\t<a href=\"https://github.com/developer9998/GorillaShirts/releases/latest\"><img src=\"https://img.shields.io/github/v/release/developer9998/GorillaShirts?label=Version&style=flat-square&color=red\"></a>\n\t<a href=\"https://github.com/developer9998/GorillaShirts/releases\"><img src=\"https://img.shields.io/github/downloads/developer9998/GorillaShirts/total?label=Downloads&style=flat-square&color=green\"></a>\n  <a href=\"https://github.com/developer9998/GorillaShirts/blob/main/LICENSE/\"><img src=\"https://img.shields.io/github/license/developer9998/GorillaShirts?label=License&style=flat-square&color=yellow\"</img></a>\n</div><br>\n\n*GorillaShirts* is the leading custom cosmetic mod for [Gorilla Tag](https://gorillatagvr.com). The mod has been universally acclaimed by viewers, modders, and content creators alike since it's early access release and public launch during 2023.\n\n## Usage\n\n*GorillaShirts* implements a structure known as the Shirt Stand, a user accessible stump present in most maps used to control the mod, including the shirts you wear, the releases you look up, and the settings you configure.\n\n## Features\n\n*GorillaShirts* contains a wide array of features to make having the mod stand out in addition to improving user experience. \n\nThis section contains the more significant features included within *GorillaShirts*, the rest is up to you to discover!\n\n### Packs\n\n*GorillaShirts* refers to a collection of shirts as a pack. \n\nPacks are useful in terms of categorization and organization of shirts, and can be managed in the form of releaes using the Pack Browser.\n\n### Configuration\n\n*GorillaShirts* currently implements a few configurable options that can be set using the Shirt Stand, and specifically on the sidebar.\n\n- **Character Identity** (``string``)<br>\n  The Shirt Stand possesses a gorilla you can configure based on identity, including Masculine (Steady) and Feminine (Silly).\n\n- **Tag Offset** (``int``)<br>\n  The player is able to offset their name tag based on this configuration. This is useful for presenting your name clearly, rather then having it clip into your shirts.\n\n### Anchors\n\n*GorillaShirts*, although an extention to existing game cosmetics, can modify those cosmetics worn by a player in terms of their anchors.\n\nAnchors that *GorillaShirts* can apply include name tag, badge, and chest/slingshot anchors. \n\nAnchors are used by a custom and base game shirt in the same manner, mostly for clarity, so the name tag, badge, and slingshot of a player can be presented all while wearing shirts.\n\n### Networking\n\n*GorillaShirts* uses Photon's PUN (**P**hoton **U**nity **N**etworking) backend to network various data, which includes:\n\n- **Version**<br>\n  What version of GorillaShirts the player is using.\n\n- **Shirts**<br>\n  An array of shirts the player has worn on them.\n\n- **Tag Offset**<br>\n  The configured tag offset the player has set.\n\nYou may view the shirts of another player if you have the shirt they're using installed. If you don't have it, a fallback is used when possible.\n\nA fallback refers to a shirt found within the \"Default\" shirt pack to use on a player when their intended shirt cannot be used, in this case, when the local player doesn't have the shirt installed.\n\nThis fallback might not be assigned, but when it is, it's done by the shirt, and cannot be configured at runtime (in Gorilla Tag).\n\n*GorillaShirts* is a mod for Gorilla Tag. The mod is able to import community-made shirts into the game, which then can be worn and seen by others with the mod. You can create your own shirts using the [GorillaShirtsUnityProject](https://github.com/developer9998/GorillaShirtsUnityProject).\n\n## Instructions\n\nListed below are instructions regarding a handful of circumstances, but mostly surround downloading and installation.\n\n### Downloading GorillaShirts (Method 1)\n\nMethod 1 refers to the automatic process of a program downloading and installing ``GorillaShirts`` before you. Though with most applications you download, please be cautious of malware and RATs, those unfortunately circulate more than you think.\n\nA program capable of this method is **MonkeModManager**:\n\n  - [Windows Download](https://github.com/arielthemonke/MonkeModManager/releases/latest/download/MonkeModManager.exe)\n  - [Linux Download](https://github.com/arielthemonke/MonkeModManager/releases/latest/download/MonkeModManager.Linux)\n\n\nUsing either version, under the \"Cosmetic\" section, \"GorillaShirts\" can be located. You can proceed to select the mod and start the installation/update process.\n\n### Downloading GorillaShirts (Method 2)\n\nMethod 2 refers to a more manual way of downloading and installing ``GorillaShirts``. Though the process isn't difficult at all, I'd recommend the first if you don't know what you're doing.\n\nTo download *GorillaShirts*, navigate to the \"Releases\" tab to the right of the page, or click on the \"Version\" or \"Downloads\" button at the start of the page to view the latest release.\n\nAt a release, a ``GorillaShirts.dll`` is present. This is the file you download, and consists of the entirely of the mod.\n\nIf a ``GorillaShirts.pdb`` is included, that file may be downloaded as well. A ``.pdb`` (Program Database) defines information surronding GorillaShirts that can be helpful for debugging.\n\n### Installing GorillaShirts (Method 2)\n\nTo install *GorillaShirts*, place your downloaded ``GorillaShirts.dll`` file directly into your plugins folder.\n\nThat pretty much covers it. ``GorillaShirts`` doesn't require any other dependencies, with no requirements needed other than Gorilla Tag.\n\nIf you did download the accompanied ``GorillaShirts.pdb`` file, simply place it alongside ``GorillaShirts.dll``. \n\n## Credits\n\n*GorillaShirts* is a product contributed to by many during its continued development since 2022.\n\nSupporters of Dev's Patreon and Ko-fi services are listed within the info section of the mod, in addition to everyone listed below.\n\n### Lead Contributors\n\n- **dev9998**: Creator (programmer and designer)\n\n- **gizmogoat**: Tester\n\n- **crescentmondo**: Artist (2D sprites and 3D models)\n    \n### Special Thanks\n\n- **sushii64**: Testing\n\n- **ch7ken**: Turtleneck idea and assistience\n\n- **ojsauce**: Tag Offset and Photo Capture ideas and assistience\n\n## Disclaimer\n\n<h4 align=\"center\">\nThis product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. © 2021 Another Axiom LLC.\n</h4>\n",
+    "changelog": "",
+    "additional_links": [
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/developer9998/GorillaShirts"
+      },
+      {
+        "label": "Latest release",
+        "url": "https://github.com/developer9998/GorillaShirts/releases/tag/2.4.7"
+      },
+      {
+        "label": "Wiki",
+        "url": "https://github.com/developer9998/GorillaShirts/wiki"
+      }
+    ],
+    "dependencies": [],
+    "featured": false,
+    "owner_id": "81720436"
   }
 ]
