@@ -132,5 +132,42 @@
     "dependencies": [],
     "featured": false,
     "owner_id": "332669509"
+  },
+  {
+    "name": "GorillaLibrary",
+    "version": "1.1.0",
+    "author": "GorillaTagModdingHub",
+    "description": "Essential general-purpose Gorilla Tag library for modding the game with BepInEx, packed with utilities and extensions for developers to use in their mods",
+    "category": "Utility",
+    "download_url": "https://github.com/GorillaTagModdingHub/GorillaLibrary/releases/download/1.1.0/GorillaLibrary.dll",
+    "image_url": "",
+    "gallery_urls": [],
+    "video_url": "",
+    "source_url": "https://github.com/GorillaTagModdingHub/GorillaLibrary",
+    "website_url": "https://gorillatagmoddinghub.github.io/GorillaLibrary/",
+    "embed_url": "",
+    "requirements": "",
+    "supported_os": [
+      "Windows"
+    ],
+    "readme": "# GorillaLibrary\n\nGorillaLibrary is a master library meant to aid mod developers in various factors all around the games codebase.\n\nSome notable feature include:\n- **Custom gamemodes:** GorillaLibrary includes an easy way for mod developers to create custom gamemodes, familiar to those who made them using Utilla, with backwards compatibility with Utilla.\n- **Easy networking:** A new channel system that any mod developers can use to easily network specific things inside of their mods.\n- **Custom wardrobes:** Easily add things such as custom cosmetics or anything related to the wardrobes inside of the game in mods.\n- **Easy game events:** GorillaLibrary provides a whole lot of events to subscribe to within your mods, these range from just the game initalizing to someone's colour changing.\n- And a whole lot more including inputs, rig utilities, etc.\n\n## FAQ\n\n- Is this a replacement to Utilla?\n  - Yes. It is, although both mods can work together, all Utilla game modes are automatically translated into GorillaLibrary game modes.\n- Why use this over Utilla?\n  - Utilla is pretty old, and it's shown. The only reason why any updates are made for it anymore is just to fix it for a new game update, and it's only really strong suit was making custom game modes. GorillaLibrary includes many utilities for mod developers to make mod creation easier on top of having the same game mode functionality as Utilla.\n- How do I install it?\n  - Go to the releases tab on the right bar of this page (on desktop) or install it from [MonkeForge](https://monkeforge.org/view/gorillalibrary)\n- Is there documentation for mod developers?\n  - Yes! It is available [here.](https://gorillatagmoddinghub.github.io/GorillaLibrary/index.html)\n",
+    "changelog": "## What's new?\r\n\r\n- Backwards compatibility with Utilla, all Utilla functions will work perfectly fine with GorillaLibrary. (This means you can have both mods installed!)\r\n- [New documentation for mod developers](https://gorillatagmoddinghub.github.io/GorillaLibrary)\r\n- [New networking utility](https://gorillatagmoddinghub.github.io/GorillaLibrary/docs/networking.html)\r\n- [Ability to detect Windows/Linux usage](https://gorillatagmoddinghub.github.io/GorillaLibrary/api/GorillaLibrary.Utilities.SystemUtility.html)\r\n- New build actions\r\n- [BootstrapUtility](https://gorillatagmoddinghub.github.io/GorillaLibrary/api/GorillaLibrary.Utilities.BootstrapUtility.html)\r\n- [ReflectionUtility](https://gorillatagmoddinghub.github.io/GorillaLibrary/api/GorillaLibrary.Utilities.ReflectionUtility.html)\r\n\r\n## Fixes/Other:\r\n- Code of Conduct board\r\n- OnPageHide not being properly sent to wardrobe plugins\r\n- `User-Agent` header being sent on all requests (#9)\r\n\r\nEnjoy using GorillaLibrary! :D\r\n\r\n## New Contributors\r\n* @sirkingbinx made their first contribution in https://github.com/GorillaTagModdingHub/GorillaLibrary/pull/9\r\n\r\n**Full Changelog**: https://github.com/GorillaTagModdingHub/GorillaLibrary/compare/1.0.3...1.1.0",
+    "additional_links": [
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/GorillaTagModdingHub/GorillaLibrary"
+      },
+      {
+        "label": "Latest release",
+        "url": "https://github.com/GorillaTagModdingHub/GorillaLibrary/releases/tag/1.1.0"
+      },
+      {
+        "label": "Wiki",
+        "url": "https://github.com/GorillaTagModdingHub/GorillaLibrary/wiki"
+      }
+    ],
+    "dependencies": [],
+    "featured": false,
+    "owner_id": "265515502"
   }
 ]
