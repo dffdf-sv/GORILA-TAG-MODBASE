@@ -20,7 +20,15 @@
     "votes": {
       "295628523": 1
     },
-    "comments": [],
+    "comments": [
+      {
+        "id": "74d3ef71-f4b8-4636-86d3-7b6fa6e9161e",
+        "userId": "295628523",
+        "login": "dffdf-sv",
+        "body": "install to play with other people with mods(must have ps i need to test)",
+        "createdAt": "2026-10-27T11:06:20.333Z"
+      }
+    ],
     "ratings": {
       "295628523": 4
     }
