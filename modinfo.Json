@@ -25,7 +25,7 @@
     "featured": true
   },
   {
-    "name": "Utilla-GorillaTag",
+    "name": "Utilla",
     "version": "utilla",
     "author": "BRTeamYT",
     "description": "Utilla is a library for Gorilla Tag that handles various room-based behaviours and most known for implementing custom game modes.",
