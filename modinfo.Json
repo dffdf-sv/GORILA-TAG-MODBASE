@@ -204,30 +204,5 @@
     "dependencies": [],
     "featured": false,
     "owner_id": "214753384"
-  },
-  {
-    "name": "wwdq",
-    "version": "1.0.0",
-    "author": "www",
-    "description": "s",
-    "category": "Utility",
-    "download_url": "https://raw.githubusercontent.com/dffdf-sv/GORILA-TAG-MODBASE/main/mods/wwdq/mod/1795551902189-GorillaShirts.dll",
-    "image_url": "",
-    "gallery_urls": [],
-    "video_url": "",
-    "source_url": "",
-    "website_url": "",
-    "embed_url": "",
-    "requirements": "",
-    "supported_os": [
-      "Windows",
-      "Linux"
-    ],
-    "readme": "",
-    "changelog": "",
-    "additional_links": [],
-    "dependencies": [],
-    "featured": false,
-    "owner_id": "295628523"
   }
 ]
